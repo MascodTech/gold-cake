@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+
+.header {
+    background-image: url('../img/bg.png');
+}
+
+.navbar {
+    background-color: rgba(255, 0, 0, 0.49);
+}
+
+.navbar .btn {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navbar .btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+}
+
+.navbar i {
+    color: #4a76a8;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+.navbar .fa-instagram {
+    color: violet;
+}
+
+.navbar__link {
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar__link:hover {
+    color: #fff;
+}
+
+.contact .btn {
+    box-shadow: none !important;
+}
+
+.carousel-item {
+    height: 500px;
+    position: relative;
+}
+
+.carousel-item__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-item__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+}
+
+.carousel-item__title {
+    font-weight: 700;
+    color: #fff;
+}
+
+.carousel-item__text {
+    color: #fff;
+}
+
+/* header end */
