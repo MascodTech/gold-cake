@@ -13,8 +13,10 @@ li {
     list-style: none;
 }
 
+html,
 body {
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* header */
@@ -102,6 +104,8 @@ body {
 
 
 /* carousel end */
+
+/* nav */
 .nav {
     background-image: url('../img/navbar-bg.png');
 }
@@ -153,3 +157,50 @@ body {
 .nav-list__link:hover::before {
     transform: translateX(0);
 }
+
+/* nav end */
+
+/* gallery */
+
+.gallary-margin {
+    margin-top: 90.4px;
+}
+
+.gallery {
+    background: url('../img/navbar-bg.png');
+}
+
+.card-col {
+    margin: 15px auto;
+}
+
+.card {
+    text-align: center;
+    border: 10px double #fff;
+    border-radius: 0;
+    overflow: hidden;
+    background: black;
+}
+
+.card__image {
+    height: 400px;
+    object-fit: cover;
+    border-bottom: 8px double #fff;
+}
+
+.gallery-bg {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 40px 0;
+}
+
+.card__title {
+    color: #fff;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+.card__price {
+    color: #fff;
+}
+
+/* gallery end */
