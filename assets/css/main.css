@@ -168,6 +168,7 @@ body {
 
 .gallery {
     background: url('../img/navbar-bg.png');
+    scroll-margin-top: 80px;
 }
 
 .card-col {
@@ -201,6 +202,63 @@ body {
 
 .card__price {
     color: #fff;
+}
+
+.nav-list__item {
+    position: relative;
+}
+
+.nav-list__item:hover .drop-menu {
+    opacity: 1;
+    pointer-events: all;
+    cursor: pointer;
+}
+
+.drop-menu {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    cursor: default;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    z-index: 20;
+    font-size: 20px;
+    border: 3px solid red;
+    width: max-content;
+    background: rgba(255, 255, 255, 0.5);
+    font-weight: 700;
+    padding: 15px;
+}
+
+.drop-menu__item {
+    color: #000;
+    transition: 0.1s;
+}
+
+.drop-menu__item:hover {
+    color: gold;
+    text-shadow: 0 0 2px #000;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.gallery-title {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: rgba(255, 0, 0, 0.49);
+    width: 700px;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-shadow: 5px 5px 3px #000;
+    scroll-margin-top: 100px;
+}
+
+.gallery-container {
+    margin-bottom: 50px;
 }
 
 /* gallery end */
