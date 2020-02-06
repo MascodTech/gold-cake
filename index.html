@@ -10,6 +10,7 @@
     <!-- libs -->
     <link rel="stylesheet" href="assets/libs/fontawesome-pro-5.12.0-web/css/all.min.css">
     <link rel="stylesheet" href="assets/libs/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/libs/fancybox/jquery.fancybox.min.css">
     <!-- styles -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,700i&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
@@ -21,7 +22,8 @@
         <nav class="navbar">
             <div class="container d-flex justify-content-between">
                 <div class="dropdown">
-                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
                         Подпишись
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -38,7 +40,8 @@
 
                 <div class="contact d-flex align-items-center">
                     <div class="dropdown">
-                        <button class="btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button class="btn" type="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
                             Доставка
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -61,7 +64,9 @@
                     <img class="carousel-item__image" src="assets/img/slider-image-1.jpg" alt="">
                     <div class="carousel-item__content">
                         <h2 class="carousel-item__title">Пример текста</h2>
-                        <p class="carousel-item__text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Живет вскоре имени заманивший он за текстов переписывается семантика рекламных!</p>
+                        <p class="carousel-item__text">Далеко-далеко за словесными горами в стране гласных и согласных
+                            живут рыбные тексты. Живет вскоре имени заманивший он за текстов переписывается семантика
+                            рекламных!</p>
                     </div>
 
                 </div>
@@ -69,14 +74,18 @@
                     <img class="carousel-item__image" src="assets/img/slider-image-2.jpg" alt="">
                     <div class="carousel-item__content">
                         <h2 class="carousel-item__title">Пример текста</h2>
-                        <p class="carousel-item__text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Живет вскоре имени заманивший он за текстов переписывается семантика рекламных!</p>
+                        <p class="carousel-item__text">Далеко-далеко за словесными горами в стране гласных и согласных
+                            живут рыбные тексты. Живет вскоре имени заманивший он за текстов переписывается семантика
+                            рекламных!</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img class="carousel-item__image" src="assets/img/slider-image-3.jpg" alt="">
                     <div class="carousel-item__content">
                         <h2 class="carousel-item__title">Пример текста</h2>
-                        <p class="carousel-item__text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Живет вскоре имени заманивший он за текстов переписывается семантика рекламных!</p>
+                        <p class="carousel-item__text">Далеко-далеко за словесными горами в стране гласных и согласных
+                            живут рыбные тексты. Живет вскоре имени заманивший он за текстов переписывается семантика
+                            рекламных!</p>
                     </div>
                 </div>
             </div>
@@ -102,6 +111,7 @@
                             <a class="drop-menu__item" href="#dep-1-2">Торты ко дню рождения</a>
                             <a class="drop-menu__item" href="#dep-1-3">Торт для него</a>
                             <a class="drop-menu__item" href="#dep-1-4">Торт для неё</a>
+                            <a class="drop-menu__item" href="#dep-1-5">Детский тортик</a>
                         </div>
                     </li>
                     <li class="nav-list__item"><a href="#" class="nav-list__link">Галерея начинок</a></li>
@@ -113,16 +123,29 @@
     </nav>
     <!-- /.nav -->
 
+
+    
     <section class="gallery" id="gallery">
         <div class="gallery-bg">
+            <h2 class="section-title">Галерея тортов</h2>
             <h2 class="gallery-title" id="dep-1-1">Свадебные торты</h2>
             <div class="container gallery-container">
                 <div class="row">
                     <div class="col-4 card-col">
                         <div class="card">
-                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <a data-fancybox data-src="#dep-card-1-1"  href="#!">
+                                <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            </a>
                             <h3 class="card__title">Название торта</h3>
                             <p class="card__price">1800 руб.</p>
+                            <div class="hidden-content" id="dep-card-1-1">
+                                <img src="assets/img/slider-image-1.jpg" alt="">
+                                <h2>Hello</h2>
+                                <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Подзаголовок дороге семь переписали там путь буквенных предупредила гор рукописи если пустился, возвращайся речью не? Прямо, его своих единственное до большого все страна пустился снова сбить деревни первую, пунктуация грустный. Вершину заманивший, подпоясал жаренные заглавных всеми от всех гор дорогу они рукопись пояс большого вопрос то, но за текст пунктуация эта ведущими снова великий лучше возвращайся даль власти. Напоивший ручеек семь снова, вопроса, взобравшись языкового выйти, ipsum по всей возвращайся несколько что своего большой вдали правилами свой это пунктуация своих они от всех необходимыми бросил! Вопроса диких, языкового жаренные пояс живет ты щеке?</p>
+
+
+                                <a href="#!">Заказать</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-4 card-col">
@@ -160,11 +183,12 @@
                             <p class="card__price">1800 руб.</p>
                         </div>
                     </div>
-                    
+
 
 
                 </div>
             </div>
+            <!-- Свадебные торты -->
             <h2 class="gallery-title" id="dep-1-2">Торты ко дню рождения</h2>
             <div class="container gallery-container">
                 <div class="row">
@@ -210,11 +234,12 @@
                             <p class="card__price">1800 руб.</p>
                         </div>
                     </div>
-                    
+
 
 
                 </div>
             </div>
+            <!-- Торты ко дню рождения -->
             <h2 class="gallery-title" id="dep-1-3">Торт для него</h2>
             <div class="container gallery-container">
                 <div class="row">
@@ -260,11 +285,12 @@
                             <p class="card__price">1800 руб.</p>
                         </div>
                     </div>
-                    
+
 
 
                 </div>
             </div>
+            <!-- Торт для него -->
             <h2 class="gallery-title" id="dep-1-4">Торт для неё</h2>
             <div class="container gallery-container">
                 <div class="row">
@@ -310,14 +336,121 @@
                             <p class="card__price">1800 руб.</p>
                         </div>
                     </div>
-                    
+
+
+
+                </div>
+            </div>
+            <!-- Торт для неё -->
+            <h2 class="gallery-title" id="dep-1-5">Детский тортик</h2>
+            <div class="container gallery-container">
+                <div class="row">
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <!-- Детский тортик -->
+        </div>
+    </section>
+    <!-- /.gallery -->
+
+    <section class="gallery toppings m-0">
+        <div class="gallery-bg">
+            <h2 class="section-title toppings-title">Галерея начинок</h2>
+            <div class="container gallery-container">
+                <div class="row">
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+                    <div class="col-4 card-col">
+                        <div class="card">
+                            <img class="card__image" src="assets/img/slider-image-1.jpg" alt="">
+                            <h3 class="card__title">Название торта</h3>
+                            <p class="card__price">1800 руб.</p>
+                        </div>
+                    </div>
+
 
 
                 </div>
             </div>
         </div>
     </section>
-    <!-- /.gallery -->
 
 
 
@@ -325,6 +458,7 @@
     <script src="assets/libs/jquery-3.4.1.min.js"></script>
     <script src="assets/libs/popper.min.js"></script>
     <script src="assets/libs/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <script src="assets/libs/fancybox/jquery.fancybox.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
