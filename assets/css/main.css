@@ -17,7 +17,9 @@ html,
 body {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    background: #000;
 }
+
 .section-title {
     background: rgba(255, 0, 0, 0.49);
     text-transform: uppercase;
@@ -26,7 +28,10 @@ body {
     text-shadow: 5px 5px 3px #000;
     text-align: center;
     color: #fff;
-    padding: 15px;
+    padding: 15px 65px;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 5px 20px;
 }
 
 /* header */
@@ -200,6 +205,10 @@ body {
     width: 100%;
 }
 
+.card__image_no-border {
+    border: none;
+}
+
 .gallery-bg {
     background: rgba(255, 255, 255, 0.5);
     padding: 40px 0;
@@ -304,10 +313,6 @@ body {
     color: red;
     padding: 15px;
     font-size: 22px;
-}
-
-.toppings-title {
-    background: rgba(18, 116, 91, 0.5);
 }
 
 /* gallery end */

@@ -1,3 +1,5 @@
+// fixed navbar
+
 $(function () {
     var $nav = $('.nav');
     var $window = $(window);
@@ -20,3 +22,7 @@ $(function () {
     fixedNavbar();
     $window.scroll(fixedNavbar);
 });
+
+// wow js
+
+new WOW().init();
